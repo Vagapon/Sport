@@ -63,7 +63,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
       icon: Table,
       label: 'Setting',
       submenu: [
-        { label: 'Preferences', path: '/admin/settings/preferences' },
+        { label: 'Profile', path: '/admin/profile' },
         { label: 'Security', path: '/admin/settings/security' }
       ]
     }
